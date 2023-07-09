@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
+import './appStyles.css';
+import styles from  './appStyles.module.css'
+// import NameList from './components/NameList';
 // import UserGreeting from './components/UserGreeting';
 // import EventBind from './components/EventBind';
 // import ParentComponent from './components/ParentComponent';
@@ -11,6 +15,7 @@ import NameList from './components/NameList';
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
 // import Message from './components/Message';
+
 
 
 
@@ -31,7 +36,11 @@ class App extends Component {
         {/* <EventBind /> */}
         {/* <ParentComponent /> */}
         {/* <UserGreeting/> */}
-        <NameList />
+        {/* <NameList /> */}
+        <StyleSheet primary={true} />
+        <Inline />
+        <h2 className='error'>Error</h2>
+        <h2 className={styles.success}>Success</h2>
       </div>
     );
   }
