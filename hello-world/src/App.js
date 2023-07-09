@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import EventBind from './components/EventBind';
+// import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import Counter from './components/Counter';
@@ -25,7 +26,8 @@ class App extends Component {
         <Counter /> */}
         {/* <FunctionClick />
         <ClassClick /> */}
-        <EventBind />
+        {/* <EventBind /> */}
+        <ParentComponent />
       </div>
     );
   }
