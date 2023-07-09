@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import StyleSheet from './components/StyleSheet';
-import Inline from './components/Inline';
-import './appStyles.css';
-import styles from  './appStyles.module.css'
+import Form from './components/Form';
+// import StyleSheet from './components/StyleSheet';
+// import Inline from './components/Inline';
+// import './appStyles.css';
+// import styles from  './appStyles.module.css'
 // import NameList from './components/NameList';
 // import UserGreeting from './components/UserGreeting';
 // import EventBind from './components/EventBind';
@@ -37,10 +38,11 @@ class App extends Component {
         {/* <ParentComponent /> */}
         {/* <UserGreeting/> */}
         {/* <NameList /> */}
-        <StyleSheet primary={true} />
+        {/* <StyleSheet primary={true} />
         <Inline />
         <h2 className='error'>Error</h2>
-        <h2 className={styles.success}>Success</h2>
+        <h2 className={styles.success}>Success</h2> */}
+        <Form />
       </div>
     );
   }
