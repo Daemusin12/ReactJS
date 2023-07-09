@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import UserGreeting from './components/UserGreeting';
 // import EventBind from './components/EventBind';
-import ParentComponent from './components/ParentComponent';
+// import ParentComponent from './components/ParentComponent';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import Counter from './components/Counter';
@@ -27,7 +28,8 @@ class App extends Component {
         {/* <FunctionClick />
         <ClassClick /> */}
         {/* <EventBind /> */}
-        <ParentComponent />
+        {/* <ParentComponent /> */}
+        <UserGreeting/>
       </div>
     );
   }
