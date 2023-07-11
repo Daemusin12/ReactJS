@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+// import Form from './components/Form';
 // import StyleSheet from './components/StyleSheet';
 // import Inline from './components/Inline';
 // import './appStyles.css';
@@ -42,7 +43,8 @@ class App extends Component {
         <Inline />
         <h2 className='error'>Error</h2>
         <h2 className={styles.success}>Success</h2> */}
-        <Form />
+        {/* <Form /> */}
+        <LifeCycleA />
       </div>
     );
   }
