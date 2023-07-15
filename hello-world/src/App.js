@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Table from './components/Table';
+import ParentComp from './components/ParentComp';
+// import PureComp from './components/PureComp';
+// import Table from './components/Table';
 // import LifeCycleA from './components/LifeCycleA';
 // import FragmentDemo from './components/FragmentDemo';
 // import Form from './components/Form';
@@ -48,7 +50,9 @@ class App extends Component {
         {/* <Form /> */}
         {/* <LifeCycleA /> */}
         {/* <FragmentDemo /> */}
-        <Table />
+        {/* <Table /> */}
+        {/* <PureComp /> */}
+        <ParentComp />
       </div>
     );
   }
