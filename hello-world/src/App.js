@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
+// import FocusInput from './components/FocusInput';
 // import RefsDemo from './components/RefsDemo';
 // import ParentComp from './components/ParentComp';
 // import PureComp from './components/PureComp';
@@ -56,7 +57,8 @@ class App extends Component {
         {/* <PureComp /> */}
         {/* <ParentComp /> */}
         {/* <RefsDemo /> */}
-        <FocusInput />
+        {/* <FocusInput /> */}
+        <FRParentInput />
       </div>
     );
   }
