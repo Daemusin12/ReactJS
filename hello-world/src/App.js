@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+// import RefsDemo from './components/RefsDemo';
 // import ParentComp from './components/ParentComp';
 // import PureComp from './components/PureComp';
 // import Table from './components/Table';
@@ -54,7 +55,8 @@ class App extends Component {
         {/* <Table /> */}
         {/* <PureComp /> */}
         {/* <ParentComp /> */}
-        <RefsDemo />
+        {/* <RefsDemo /> */}
+        <FocusInput />
       </div>
     );
   }
