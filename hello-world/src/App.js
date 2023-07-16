@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import CounterRenderProps from './components/CounterRenderProps';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import HoverCounterTwo from './components/HoverCounterTwo';
+// import User from './components/User';
 // import ClickCounter from './components/ClickCounter';
 // import HoverCounter from './components/HoverCounter';
 // import Hero from './components/Hero';
@@ -80,8 +82,21 @@ class App extends Component {
         </ErrorBoundary> */}
         {/* <HoverCounter />
         <ClickCounter name='Leozzio'/> */}
-        <ClickCounterTwo />
+        {/* <ClickCounterTwo /> 
         <HoverCounterTwo />
+        <User render={(isLoggedIn) => isLoggedIn ? "Leozzio" : "Guest" } /> */}
+        <CounterRenderProps>
+          {(count, incrementCount) => (
+            <ClickCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        </CounterRenderProps> 
+
+        <CounterRenderProps>          
+          {(count, incrementCount) => (
+            <HoverCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        </CounterRenderProps> 
+
       </div>
     );
   }
