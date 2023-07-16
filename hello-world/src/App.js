@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Hero from './components/Hero';
-import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+// import Hero from './components/Hero';
+// import ErrorBoundary from './components/ErrorBoundary';
 // import PortalDemo from './components/PortalDemo';
 // import FRParentInput from './components/FRParentInput';
 // import FocusInput from './components/FocusInput';
@@ -63,7 +65,7 @@ class App extends Component {
         {/* <FocusInput /> */}
         {/* <FRParentInput /> */}
         {/* <PortalDemo /> */}
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
           <Hero heroName="Batman"></Hero>
         </ErrorBoundary>
 
@@ -73,7 +75,9 @@ class App extends Component {
 
         <ErrorBoundary>
           <Hero heroName="Joker"></Hero>
-        </ErrorBoundary>
+        </ErrorBoundary> */}
+        <HoverCounter />
+        <ClickCounter />
       </div>
     );
   }
