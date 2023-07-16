@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+// import ClickCounter from './components/ClickCounter';
+// import HoverCounter from './components/HoverCounter';
 // import Hero from './components/Hero';
 // import ErrorBoundary from './components/ErrorBoundary';
 // import PortalDemo from './components/PortalDemo';
@@ -76,8 +78,10 @@ class App extends Component {
         <ErrorBoundary>
           <Hero heroName="Joker"></Hero>
         </ErrorBoundary> */}
-        <HoverCounter />
-        <ClickCounter name='Leozzio'/>
+        {/* <HoverCounter />
+        <ClickCounter name='Leozzio'/> */}
+        <ClickCounterTwo />
+        <HoverCounterTwo />
       </div>
     );
   }
