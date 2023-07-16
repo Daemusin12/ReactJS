@@ -77,7 +77,7 @@ class App extends Component {
           <Hero heroName="Joker"></Hero>
         </ErrorBoundary> */}
         <HoverCounter />
-        <ClickCounter />
+        <ClickCounter name='Leozzio'/>
       </div>
     );
   }
