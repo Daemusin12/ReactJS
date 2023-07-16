@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
+// import FRParentInput from './components/FRParentInput';
 // import FocusInput from './components/FocusInput';
 // import RefsDemo from './components/RefsDemo';
 // import ParentComp from './components/ParentComp';
@@ -58,7 +59,8 @@ class App extends Component {
         {/* <ParentComp /> */}
         {/* <RefsDemo /> */}
         {/* <FocusInput /> */}
-        <FRParentInput />
+        {/* <FRParentInput /> */}
+        <PortalDemo />
       </div>
     );
   }
