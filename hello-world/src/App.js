@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+// import PortalDemo from './components/PortalDemo';
 // import FRParentInput from './components/FRParentInput';
 // import FocusInput from './components/FocusInput';
 // import RefsDemo from './components/RefsDemo';
@@ -60,7 +62,18 @@ class App extends Component {
         {/* <RefsDemo /> */}
         {/* <FocusInput /> */}
         {/* <FRParentInput /> */}
-        <PortalDemo />
+        {/* <PortalDemo /> */}
+        <ErrorBoundary>
+          <Hero heroName="Batman"></Hero>
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName="Superman"></Hero>
+        </ErrorBoundary>
+
+        <ErrorBoundary>
+          <Hero heroName="Joker"></Hero>
+        </ErrorBoundary>
       </div>
     );
   }
